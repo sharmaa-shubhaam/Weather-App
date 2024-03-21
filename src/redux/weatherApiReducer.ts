@@ -1,4 +1,4 @@
-import { PayloadAction, createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { RootState } from "./store";
 import axios from "axios";
 import { WeatherApiInterface } from "./weatherApi";
