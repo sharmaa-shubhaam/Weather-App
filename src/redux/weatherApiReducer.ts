@@ -20,7 +20,6 @@ const weatherApiReducer = createSlice({
    name: "weather_api",
    initialState: InititalWeatherApi as WeatherApiInterface,
    reducers: {},
-   extraReducers(builder) {},
 });
 
 export const weatherApi = (state: RootState) => state.weather_api;
